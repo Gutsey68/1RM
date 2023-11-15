@@ -14,6 +14,17 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     font-family: var(--montserrat);
+    font-size: 18px;
+}
+
+.btn-bleu {
+    background-color:var(--bleu);
+    color:white;
+    font-weight:600;
+    border:solid 0.2rem #1D1D1B;
+    border-radius:5%;
+    padding:0.5rem 1rem; 
+    font-family: var(--poppins);
 }
 
 /* navbar */ 
@@ -24,5 +35,93 @@ p {
 
 .nav-link {
     color: var(--almostblack);
+    font-size: 1.2rem;
+    font-weight:650;
+
 }
 
+/*presentation */
+#presentation {
+    background-color: var(--whitesmoke);
+}
+
+#presentation h1, h2 {
+    font-size: 3rem;
+    font-weight: 650;
+    margin-top: 3rem
+}
+
+#presentation span {
+    color: var(--bleu);
+}
+
+/* photos */
+#imagesphoto {
+    background-color: var(--whitesmoke);
+}
+/* temoignages */
+
+/* call to action */
+#cta  {
+    background-color: var(--whitesmoke);
+}
+#cta h2 {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+#cta ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+/* footer */
+footer .footercopyright {
+    background-color: var(--whitesmoke);
+}
+
+footer .img-fluid {
+    width: 60px;
+    height: 60px;
+}
+
+footer .hidden-mobile i {
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+
+
+
+@media screen and (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+    margin-left: 22rem;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 7rem;
+    }
+    .navbar img {
+        margin-left: 3rem;
+    }
+    #presentation h1, h2, p {
+        margin-left: 3rem ;
+        margin-right: 3rem;
+    }
+    #cta .hidden-desktop {
+        display: none;
+    }
+    footer .hidden-desktop {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #cta .hidden-mobile {
+        display: none;
+    }
+    footer .hidden-mobile {
+        display: none;
+    }
+}
