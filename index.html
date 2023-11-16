@@ -41,6 +41,36 @@
             </div>
         </div>
     </nav>
+    <section id="navbarMobile">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3">
+                    <a href="">
+                        <span>Services</span>
+                        <img class="img-fluid" src="images/icones/services-projet-1.png" alt="">
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="">
+                        <span>À propos</span>
+                        <img class="img-fluid" src="images/icones/a-propos-projet-1.png" alt="">
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="">
+                        <span>Témoignages</span>
+                        <img class="img-fluid" src="images/icones/temoignages-projet-1.png" alt="">
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="">
+                        <span>Articles</span>
+                        <img class="img-fluid" src="images/icones/a-propos-projet-1.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 <!-- hero -->
     <img id="imagelogo" class="img-fluid" src="images/images-acceuil/logo-salle.png" alt="">
 <!-- presentation -->
@@ -157,16 +187,18 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <h3>Contact</h3>
-                    <form action="" method="post">
-                        <label for="nom">Nom</label>
-                        <input type="text" id="nom" name="nom" required><br>
-                        <label for="e-mail">Adresse e-mail</label>
-                        <input type="email" id="email" name="email" required><br>
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
-                        <input class="btn btn-bleu" type="submit" value="Envoyer">
-                    </form>
+                    <form>
+                        <div class="form-group">
+                          <input type="text" class="form-control" id="nom" name="nom" placeholder="Entrez votre nom ici" required>
+                        </div>
+                        <div class="form-group">
+                          <input type="email" class="form-control" id="email" name="email" placeholder="Entrez votre email ici" required>
+                        </div>
+                        <div class="form-group">
+                          <textarea class="form-control" id="message" name="message" placeholder="Entrez votre message ici" required></textarea>
+                        </div>
+                        <input type="submit" class="btn btn-bleu" value="Envoyer">
+                      </form>
                 </div>
             </div>
         </div>
