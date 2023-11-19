@@ -4,18 +4,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services</title>
+    <link rel="stylesheet" href="../style/bootstrap.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="../script/bootstrap.bundle.js"></script>
+    <title>Document</title>
 </head>
 
 <body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a href="../index.html"><img class="navbar-brand" src="../images/icones/logo1RM.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <img class="navbar-toggler-icon" src="../images/icones/burger.png" alt="">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../page/services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../page/a-propos.html">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../page/temoignages.html">Témoignages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../page/articles.html">Articles</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="navbarMobile">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3">
+                    <a href="../page/services.html">
+                        <span>Services</span>
+                        <img class="img-fluid" src="../images/icones/services-projet-1.png" alt="">
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="../page/a-propos.html">
+                        <span>À propos</span>
+                        <img class="img-fluid" src="../images/icones/a-propos-projet-1.png" alt="">
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="../page/temoignages.html">
+                        <span>Témoignages</span>
+                        <img class="img-fluid" src="../images/icones/temoignages-projet-1.png" alt="">
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="../page/articles.html">
+                        <span>Articles</span>
+                        <img class="img-fluid" src="../images/icones/blog-projet-1.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero -->
+    <img class="img-fluid hidden-mobile" src="../images/images-acceuil/hero.jpg" alt="salle-1RM">
+    <img class="img-fluid hidden-desktop" src="../images/images-acceuil/hero-mobile.png" alt="salle-1RM">
+    <!-- Debut de la page  -->
     <section>
         <h1>Services de Coaching Sportif Personnalisé</h1>
         <p>En quête d'un changement durable et significatif dans votre condition physique ?
             Nos services de coaching sportif sur mesure sont conçus pour vous aider à atteindre
             vos objectifs de remise en forme de manière efficace et adaptée à vos besoins individuels.</p>
-            <img src="../images\images-services\coach.jpg" alt="">
+        <img src="../images\images-services\coach.jpg" alt="">
     </section>
-    
     <section>
         <div>
             <h2>Ce que nous proposons:</h2>
@@ -63,7 +134,7 @@
         <h2>Programmes de Remise en Forme Personnalisés</h2>
         <p>Découvrez une gamme de programmes conçus pour vous aider à atteindre vos objectifs
             de remise en forme de manière efficace et adaptée à votre style de vie.</p>
-            <!-- images de programme  -->
+        <!-- images de programme  -->
     </section>
     <section>
         <div>
@@ -103,7 +174,77 @@
             bien-être général.
         </p>
     </section>
-
+    <!-- Footer -->
+    <footer>
+        <div class="container pt-3 pb-3">
+            <div class="row mt-3 mb-3">
+                <div class="col-md-4 text-center">
+                    <h3>Où nous trouver ?</h3>
+                    <div id="localisation">
+                        <p>4 Rue du Rhin</p>
+                        <p>68000 Colmar</p>
+                        <p>France</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h3>Liens utiles</h3>
+                    <div id="lienutile">
+                        <div class="liensutiles"><a href="../page/mentions-legales.html">Mentions légales</a></div>
+                        <div class="liensutiles"><a href="../page/mentions-legales.html">Politique de
+                                confidentialité</a></div>
+                        <div class="liensutiles"><a href="../page/mentions-legales.html">CGU</a></div>
+                    </div>
+                </div>
+                <div id="formulaire" class="col-md-4">
+                    <form>
+                        <div class="form-group pb-2">
+                            <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom" required>
+                        </div>
+                        <div class="form-group pb-2">
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="Adresse e-mail" required>
+                        </div>
+                        <div class="form-group pb-2">
+                            <textarea class="form-control" id="message" name="message" placeholder="Message"
+                                required></textarea>
+                        </div>
+                        <input type="submit" class="btn btn-bleu" value="Envoyer">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid footercopyright pt-2 pb-2">
+            <div class="row hidden-mobile">
+                <div class="col-lg-2 col-md-1">
+                    <img class="w-60" src="../images/icones/logo1RM.png" alt="">
+                </div>
+                <div class="col-lg-5 col-md-5">
+                    <p id="copyrigth">© 2023 1RM, Inc. Tous droits réservés</p>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container footercopyright text-center">
+            <div class="row hidden-desktop">
+                <div class="col-12">
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <div class="col-12">
+                    <p>© 2023 1RM, Inc. Tous droits réservés</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

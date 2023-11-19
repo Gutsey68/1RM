@@ -48,6 +48,7 @@ p {
     color: var(--almostblack);
     text-decoration: none;
     font-weight: 650;
+    font-size: 0.8rem;
     
   }
   .navbar-toggler:focus {
@@ -63,7 +64,8 @@ p {
 #presentation h1, h2 {
     font-size: 3rem;
     font-weight: 650;
-    margin-top: 3rem
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 #presentation span {
@@ -75,6 +77,17 @@ p {
     background-color: var(--whitesmoke);
 }
 /* temoignages */
+
+#temoignages h2 {
+    font-size: 2.5rem;
+}
+#temoignages span {
+    color: var(--bleu);
+}
+#temoignages h3 {
+    font-weight: 650;
+    font-size: 1.5rem;
+}
 
 /* call to action */
 #cta  {
@@ -108,17 +121,35 @@ footer .hidden-mobile i {
 }
 
 footer .hidden-desktop {
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
+}
+footer h3 {
+    font-weight: 600;
 }
 
-
+footer #localisation  {
+    margin-top: 2rem;
+}
+footer #lienutile {
+    margin-top: 2.1rem;
+}
+footer .liensutiles {
+    margin-top: 1rem;
+}
+footer a {
+    color: var(--almostblack);
+}
+footer #copyrigth {
+    margin-top: 1.5rem;
+}
+/* Desktop */
 
 @media screen and (min-width: 992px) {
     .navbar-expand-lg .navbar-nav {
-    margin-left: 35rem;
+        margin-left: 20rem;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
-        padding-left: 9rem;
+        padding-left: 8rem;
     }
     .navbar img {
         margin-left: 3rem;
@@ -127,25 +158,84 @@ footer .hidden-desktop {
         margin-left: 3rem ;
         margin-right: 3rem;
     }
-    #cta .hidden-desktop {
-        display: none;
-    }
-    footer .hidden-desktop {
+    .hidden-desktop {
         display: none;
     }
     #navbarMobile {
         display: none;
     }
+    #presentation .btn {
+        margin-top: 1.5rem;
+    }
+    #presentation .presentation-logos-gauche {
+        margin-left: 12rem;
+        margin-top: 2rem;
+    }
+    #presentation .presentation-logos{
+        margin-left: 12rem;
+    }
+    #temoignages #etoiles,#temoignages #trema,#temoignages h3 {
+        padding-left: 3rem;
+    }
+    #cta img {
+        padding-top: 2rem;
+    }
 }
+/* Tablette */
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 577px) and (max-width: 991px) {
+    .hidden-desktop {
+        display: none;
+    }
+    #navbarMobile {
+        display: none;
+    }
+    footer #resaux {
+        font-size: 20px
+    }
+    #presentation img{
+        margin-left: 15rem;
+    }
+    #temoignages p {
+        margin: 1.5rem 0 2rem 0;
+    }
+    #cta h2 {
+        font-size: 1rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    #cta img {
+        padding-top: 1rem;
+    }
+    footer #copyrigth {
+        padding-left: 5rem;
+        font-size: 0.8rem;
+    }
+}   
+/* Mobile */
+
+@media screen and (max-width: 576px) {
     body{
         text-align: center;
     }
-    #cta .hidden-mobile {
+    .hidden-mobile {
         display: none;
     }
-    footer .hidden-mobile {
-        display: none;
+    footer #formulaire {
+        margin-top: 3rem;
+    }
+    footer a {
+        margin: 0 0.8rem;
+    }
+    footer .hidden-desktop p {
+        margin-top: 0.5rem;
+        font-size: 0.8rem;
+    }
+    #temoignages #trema {
+        text-align: left;
+        margin-left: 1.3rem;
+    }
+    #cta h2 {
+        font-size: 1.3rem;
     }
 }
