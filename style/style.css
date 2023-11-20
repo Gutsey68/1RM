@@ -43,6 +43,7 @@ p {
     position: fixed;
     bottom: 0;
     width: 100%;
+    z-index: 100;
   }
   #navbarMobile a {
     color: var(--almostblack);
@@ -76,6 +77,7 @@ p {
 #imagesphoto {
     background-color: var(--whitesmoke);
 }
+
 /* temoignages */
 
 #temoignages h2 {
