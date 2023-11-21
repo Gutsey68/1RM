@@ -62,7 +62,7 @@ p {
     background-color: var(--whitesmoke);
 }
 
-#presentation h1, h2 {
+#presentation h1,#presentation h2 {
     font-size: 3rem;
     font-weight: 650;
     margin-top: 3rem;
@@ -156,7 +156,7 @@ footer #copyrigth {
     .navbar img {
         margin-left: 3rem;
     }
-    #presentation h1, h2, p {
+    #presentation h1,#presentation h2,#presentation p {
         margin-left: 3rem ;
         margin-right: 3rem;
     }
