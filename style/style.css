@@ -26,7 +26,9 @@ p {
     padding:0.5rem 1rem; 
     font-family: var(--poppins);
 }
-
+ .img-border {
+    border: 0.3rem solid var(--almostblack);
+ }
 /* navbar */ 
 
 .nav-link {
@@ -144,8 +146,9 @@ footer a {
 footer #copyrigth {
     margin-top: 1.5rem;
 }
-/* Desktop */
+/* Services a-propos */
 
+/* Desktop */
 @media screen and (min-width: 992px) {
     .navbar-expand-lg .navbar-nav {
         margin-left: 20rem;
