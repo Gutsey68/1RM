@@ -81,20 +81,21 @@
     <img class="img-fluid hidden-mobile shadow img-border" src="images/images-acceuil/hero.jpg" alt="salle-1RM">
     <img class="img-fluid hidden-desktop shadow img-border" src="images/images-acceuil/hero-mobile.jpg" alt="salle-1RM">
    <!-- fil d'arianne -->
+   <section class="background-whitesmoke">
 <div class="container">
-    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Mentions légales</li>
         </ol>
       </nav>
-</div>
+    </div>
+</section>
     <!-- presentation -->
-    <section id="presentation">
+    <section id="presentation" class="background-whitesmoke">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12">
-                    <h1>Bienvenue chez <span>1RM</span> !</h1>
+                    <h1>Bienvenue chez <span class="span-bleu">1RM</span> !</h1>
                     <p>Notre mission est de vous aider à atteindre vos objectifs de remises en forme, à developper votre
                         force et votre bien-être en général, que vous soyezdébutants ou confirmé.
                         À l’aide de méthodes prouvées, nous créons des programmes personnalisésadaptés à vos besoins.
@@ -103,7 +104,7 @@
                             src="images/icones/temoignages-projet-1.png" alt=""></div>
                 </div>
                 <div class="col-lg-6 col-md-12">
-                    <h2>Prêt à <span>changer</span> ?</h2>
+                    <h2>Prêt à <span class="span-bleu">changer</span> ?</h2>
                     <p>Découvrez nos services, des témoignages et transformations physiques inspirantes.
                         Explorez nos offres et contactez nous pour discuter de la façon dont nous allons vous aider à
                         vous
@@ -137,12 +138,12 @@
             </div>
         </div>
     </section>
-    <!-- Temoignages -->
+<!-- Temoignages -->
     <section id="temoignages">
         <div class="container">
             <div class="row mb-3">
                 <div class="col-lg-6 col-md-12">
-                    <h2>De lambda à <span>Mr Olympia</span></h2>
+                    <h2>De lambda à <span class="span-bleu">Mr Olympia</span></h2>
                     <h3>Chris, 28 ans</h3>
                     <div id="etoiles" class="mb-3">
                         <i class="fa-solid fa-star" style="color: #ffec00;"></i>
@@ -172,7 +173,7 @@
             </div>
         </div>
     </section>
-    <!-- Call to action -->
+<!-- Call to action -->
     <section id="cta">
         <div class="container pt-3 pb-3 text-center">
             <div class="row hidden-mobile mb-4">
@@ -201,28 +202,31 @@
             </div>
         </div>
     </section>
-    <!-- Footer -->
+<!-- Footer -->
     <footer>
-        <div class="container pt-3 pb-3">
-            <div class="row mt-3 mb-3">
-                <div class="col-md-4 text-center">
-                    <h3>Où nous trouver ?</h3>
-                    <div id="localisation">
-                        <p>4 Rue du Rhin</p>
-                        <p>68000 Colmar</p>
-                        <p>France</p>
+        <div class="container pt-3 ">
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <h3 class="mb-3 mt-3">Nos coordonnées</h3>
+                    <p>0788486497</p>
+                    <p>gseyzeriat1@gmail.com</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <h3 class="mb-3 mt-3">Où nous trouver ?</h3>
+                    <p>4 Rue du Rhin</p>
+                    <p>68000 Colmar</p>
+                    <p>France</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <h3 class="mb-3 mt-3">Liens utiles</h3>
+                    <div>
+                        <div class="mb-3"><a href="page/mentions-legales.html">Plan du site</a></div>
+                        <div class="mb-3"><a href="page/mentions-legales.html">CGU</a></div>
+                        <div class="mb-3"><a href="page/mentions-legales.html">Mentions légales</a></div>
+                        <div class="mb-3"><a href="page/mentions-legales.html">Politique de confidentialité</a></div>
                     </div>
                 </div>
-                <div class="col-md-4 text-center">
-                    <h3>Liens utiles</h3>
-                    <div id="lienutile">
-                        <div class="liensutiles"><a href="page/mentions-legales.html">Mentions légales</a></div>
-                        <div class="liensutiles"><a href="page/mentions-legales.html">Politique de confidentialité</a>
-                        </div>
-                        <div class="liensutiles"><a href="page/mentions-legales.html">CGU</a></div>
-                    </div>
-                </div>
-                <div id="formulaire" class="col-md-4">
+                <div class="col-md-3 mt-3">
                     <form>
                         <div class="form-group pb-2">
                             <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom" required>
@@ -240,13 +244,13 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid footercopyright pt-2 pb-2">
+        <div class="container-fluid pt-2 pb-2 background-whitesmoke">
             <div class="row hidden-mobile">
                 <div class="col-lg-2 col-md-1">
-                    <img class="w-60" src="images/icones/logo1RM.png" alt="">
+                    <img src="images/icones/logo1RM.png" alt="">
                 </div>
-                <div class="col-lg-5 col-md-5">
-                    <p id="copyrigth">© 2023 1RM, Inc. Tous droits réservés</p>
+                <div id="copyrigth" class="col-lg-5 col-md-5">
+                    <p>© 2023 1RM, Inc. Tous droits réservés</p>
                 </div>
                 <div class="col-lg-5 col-md-6">
                     <a href=""><i class="fa-brands fa-youtube"></i></a>
@@ -257,7 +261,7 @@
                 </div>
             </div>
         </div>
-        <div class="container footercopyright text-center">
+        <div class="container text-center background-whitesmoke">
             <div class="row hidden-desktop">
                 <div class="col-12">
                     <a href=""><i class="fa-brands fa-youtube"></i></a>
