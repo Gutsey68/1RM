@@ -1,0 +1,16 @@
+{
+    "host": "dwwm.site",
+    "username": "gauthier@dwwm.site",
+    "password": "]?s)~8~l1vRl",
+    "remotePath": "",
+    "protocol": "ftp",
+    "port": 21,
+    "fileNameEncoding": "utf8",
+    "autoUpload": true,
+    "autoDelete": false,
+    "autoDownload": false,
+    "ignore": [
+        ".git",
+        "/.vscode"
+    ]
+}

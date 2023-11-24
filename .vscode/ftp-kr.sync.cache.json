@@ -1,0 +1,80 @@
+{
+  "ftp://gauthier@dwwm.site@dwwm.site:21": {
+    ".ftpquota": {
+      "type": "-",
+      "size": 11,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".git": {},
+    ".htaccess": {
+      "type": "-",
+      "size": 299,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".well-known": {},
+    "README.md": {
+      "type": "-",
+      "size": 11,
+      "lmtime": 0,
+      "modified": false
+    },
+    "images": {},
+    "index.html": {
+      "type": "-",
+      "size": 14257,
+      "lmtime": 1700747754305.3774,
+      "modified": false
+    },
+    "jsp": {},
+    "page": {
+      "a-propos.html": {
+        "type": "-",
+        "size": 13708,
+        "lmtime": 1700820479290.1238,
+        "modified": false
+      },
+      "articles.html": {
+        "type": "-",
+        "size": 16004,
+        "lmtime": 1700747774716.155,
+        "modified": false
+      },
+      "mentions-legales.html": {
+        "type": "-",
+        "size": 12326,
+        "lmtime": 1700747764137.2837,
+        "modified": false
+      },
+      "services.html": {
+        "type": "-",
+        "size": 20052,
+        "lmtime": 1700812808162.5103,
+        "modified": false
+      },
+      "temoignages.html": {
+        "type": "-",
+        "size": 12754,
+        "lmtime": 0,
+        "modified": true
+      }
+    },
+    "script": {},
+    "style": {
+      "bootstrap.css": {
+        "type": "-",
+        "size": 280813,
+        "lmtime": 0,
+        "modified": false
+      },
+      "style.css": {
+        "type": "-",
+        "size": 7332,
+        "lmtime": 1700819467137.0117,
+        "modified": false
+      }
+    }
+  },
+  "$version": 1
+}

@@ -21,9 +21,9 @@
 
 <body>
     <!-- header -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg shadow">
         <div class="container-fluid">
-            <a href="index.html"><img class="navbar-brand" src="images/icones/logo1RM.png" alt="logo-1RM"></a>
+            <a href="index.html"><img class="navbar-brand" src="images/icones/logo1RM.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -77,9 +77,18 @@
             </div>
         </div>
     </section>
-    <!-- hero -->
-    <img class="img-fluid hidden-mobile" src="images/images-acceuil/hero.jpg" alt="salle-1RM">
-    <img class="img-fluid hidden-desktop" src="images/images-acceuil/hero-mobile.png" alt="salle-1RM">
+<!-- hero -->
+    <img class="img-fluid hidden-mobile shadow img-border" src="images/images-acceuil/hero.jpg" alt="salle-1RM">
+    <img class="img-fluid hidden-desktop shadow img-border" src="images/images-acceuil/hero-mobile.jpg" alt="salle-1RM">
+   <!-- fil d'arianne -->
+<div class="container">
+    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Mentions légales</li>
+        </ol>
+      </nav>
+</div>
     <!-- presentation -->
     <section id="presentation">
         <div class="container">
@@ -104,7 +113,7 @@
 <!-- Enlever le margin left -->
 
 
-                    <div class="presentation-logos"><a class="btn btn-bleu" href="">PRENDRE RENDEZ-VOUS</a></div>
+                    <div class="presentation-logos"><a class="btn btn-bleu rounded-5" href="">PRENDRE RENDEZ-VOUS</a></div>
                     <div class="presentation-logos"><img class="img-fluid" src="images/icones/haltere.png" alt=""></div>
                 </div>
             </div>
@@ -115,14 +124,14 @@
         <div class="container">
             <div class="row mb-5 pb-5">
                 <div class="col-md-4">
-                    <img class="img-fluid rounded-5 shadow hidden-mobile"
+                    <img class="img-fluid rounded-5 shadow hidden-mobile img-border"
                         src="images/images-acceuil/elevations-laterales.png" alt="">
                 </div>
                 <div class="col-md-4">
-                    <img class="img-fluid rounded-5 shadow" src="images/images-acceuil/egerie-1RM.png" alt="">
+                    <img class="img-fluid rounded-5 shadow img-border" src="images/images-acceuil/egerie-1RM.png" alt="">
                 </div>
                 <div class="col-md-4">
-                    <img class="img-fluid rounded-5 shadow hidden-mobile"
+                    <img class="img-fluid rounded-5 shadow hidden-mobile img-border"
                         src="images/images-acceuil/couple-training.png" alt="">
                 </div>
             </div>
@@ -155,16 +164,17 @@
                         j’ai reçu j’ai pu libérer mon plein potentiel et j’ai décroché 4 fois le titre de M. Olympia en
                         Classic Physique.
                     </p>
+                    <div class="presentation-logos"><a class="btn btn-jaune rounded-5" href="">COMMENCEZ LA VOTRE</a></div>
                 </div>
                 <div class="col-lg-6 col-md-12">
-                    <img class="img-fluid rounded-5 shadow" src="images/images-transformations/transfo-homme.jpg" alt="">
+                    <img class="img-fluid rounded-5 shadow img-border" src="images/images-transformations/transfo-homme.jpg" alt="">
                 </div>
             </div>
         </div>
     </section>
     <!-- Call to action -->
     <section id="cta">
-        <div class="container pt-3 pb-3">
+        <div class="container pt-3 pb-3 text-center">
             <div class="row hidden-mobile mb-4">
                 <ul class="horizontal-list">
                     <li>
@@ -225,7 +235,7 @@
                             <textarea class="form-control" id="message" name="message" placeholder="Message"
                                 required></textarea>
                         </div>
-                        <input type="submit" class="btn btn-bleu" value="Envoyer">
+                        <input type="submit" class="btn btn-bleu rounded-5" value="Envoyer">
                     </form>
                 </div>
             </div>

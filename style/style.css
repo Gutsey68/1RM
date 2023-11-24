@@ -2,6 +2,7 @@
     --bleu:#3596FD;
     --jaune:#F0C808;
     --orange:#FF8811;
+    --white:#ffffff;
     --whitesmoke:#F5F5F5;
     --almostblack:#1D1D1B;
     --poppins:(font-family: 'Poppins', sans-serif;)
@@ -10,6 +11,19 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--poppins);
+}
+
+h1,h2,h3 {
+    font-weight: 650;
+}
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.8rem;
+}
+h3 {
+    font-size: 1.5rem;
 }
 
 p {
@@ -22,13 +36,69 @@ p {
     color:white;
     font-weight:600;
     border:solid 0.2rem #1D1D1B;
-    border-radius:5%;
     padding:0.5rem 1rem; 
     font-family: var(--poppins);
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
- .img-border {
+.btn-jaune {
+    background-color:var(--jaune);
+    color:var(--almostblack);
+    font-weight:600;
+    border:solid 0.2rem #1D1D1B;
+    padding:0.5rem 1rem; 
+    font-family: var(--poppins);
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.btn-orange {
+    background-color:var(--orange);
+    color:var(--almostblack);
+    font-weight:600;
+    border:solid 0.2rem #1D1D1B;
+    padding:0.5rem 1rem; 
+    font-family: var(--poppins);
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+ .div-bleu {
+    color: var(--white);
+    background-color: var(--bleu);
     border: 0.3rem solid var(--almostblack);
+    margin: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-shadow: -1px 1px 0 #1D1D1B, 1px 1px 0 #1D1D1B, 1px -1px 0 #1D1D1B,
+    -1px -1px 0 #1D1D1B;
  }
+ .div-jaune {
+    color: var(--white);
+    background-color: var(--jaune);
+    border: 0.3rem solid var(--almostblack);
+    margin: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-shadow: -1px 1px 0 #1D1D1B, 1px 1px 0 #1D1D1B, 1px -1px 0 #1D1D1B,
+    -1px -1px 0 #1D1D1B;
+ }
+ .div-orange {
+    color: var(--white);
+    background-color: var(--orange);
+    border: 0.3rem solid var(--almostblack);
+    margin: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-shadow: -1px 1px 0 #1D1D1B, 1px 1px 0 #1D1D1B, 1px -1px 0 #1D1D1B,
+    -1px -1px 0 #1D1D1B;
+ }
+
+ .background-whitesmoke {
+    background-color: var(--whitesmoke);
+ }
+ol li {
+    text-align: left;
+    margin-left: 3rem;
+}
+
 /* navbar */ 
 
 .nav-link {
@@ -46,6 +116,7 @@ p {
     bottom: 0;
     width: 100%;
     z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   #navbarMobile a {
     color: var(--almostblack);
@@ -65,10 +136,9 @@ p {
 }
 
 #presentation h1,#presentation h2 {
-    font-size: 3rem;
+    font-size: 2.8rem;
     font-weight: 650;
     margin-top: 3rem;
-    margin-bottom: 1.5rem;
 }
 
 #presentation span {
@@ -99,7 +169,7 @@ p {
 }
 #cta h2 {
     font-size: 1.6rem;
-    text-align: center;
+    margin-top: 2rem;
 }
 
 #cta ul {
@@ -146,8 +216,6 @@ footer a {
 footer #copyrigth {
     margin-top: 1.5rem;
 }
-/* Services a-propos */
-
 /* Desktop */
 @media screen and (min-width: 992px) {
     .navbar-expand-lg .navbar-nav {
@@ -185,6 +253,19 @@ footer #copyrigth {
     #cta img {
         padding-top: 2rem;
     }
+    h1, h2, h3, h4, h5, h6 {
+        padding: 1rem;
+    }
+    p {
+        margin: 2.5rem;
+     }
+     .img-border {
+        border: 0.3rem solid var(--almostblack);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     }
+     .image-margin-top{
+        margin-top: 10rem;
+     }
 }
 /* Tablette */
 
@@ -216,6 +297,17 @@ footer #copyrigth {
         padding-left: 5rem;
         font-size: 0.8rem;
     }
+    h1, h2, h3, h4, h5, h6 {
+        padding: 1rem;
+    }
+    .img-border {
+        border: 0.3rem solid var(--almostblack);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-bottom: 2rem;
+     }
+     .image-margin-top{
+        margin-top: 10rem;
+     }
 }   
 /* Mobile */
 
@@ -243,4 +335,23 @@ footer #copyrigth {
     #cta h2 {
         font-size: 1.3rem;
     }
+    .div-bleu {
+        font-family: var(--poppins);
+        padding: 1rem 2rem 2rem 2rem;
+     }
+     .div-jaune {
+        font-family: var(--poppins);
+        padding: 1rem 2rem 2rem 2rem;
+     }
+     .div-orange {
+        font-family: var(--poppins);
+        padding: 1rem 2rem 2rem 2rem;
+     }
+     img.img-border{
+        border: 0.3rem solid var(--almostblack);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     }
+     section p {
+        text-align: left;
+     }
 }
