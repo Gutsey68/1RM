@@ -98,7 +98,10 @@ ol li {
     text-align: left;
     margin-left: 3rem;
 }
-
+section i {
+    font-size: 3rem;
+    color: var(--almostblack);
+}
 /* navbar */ 
 
 .nav-link {
@@ -203,24 +206,20 @@ footer a {
         margin-left: 3rem ;
         margin-right: 3rem;
     }
-    .hidden-desktop {
+    .hidden-desktop, #navbarMobile {
         display: none;
-    }
-    #navbarMobile {
-        display: none;
-    }
-    #presentation .btn {
-        margin-top: 1.5rem;
     }
     #presentation .presentation-logos-gauche {
         margin-left: 12rem;
-        margin-top: 2rem;
     }
     #presentation .presentation-logos{
         margin-left: 12rem;
     }
     #temoignages #etoiles,#temoignages #trema,#temoignages h3 {
         padding-left: 3rem;
+    }
+    #temoignages .btn-jaune {
+        margin-left: 2rem;
     }
     #cta img {
         padding-top: 2rem;
@@ -250,12 +249,6 @@ footer a {
 /* Tablette */
 
 @media screen and (min-width: 577px) and (max-width: 991px) {
-    .hidden-desktop {
-        display: none;
-    }
-    #navbarMobile {
-        display: none;
-    }
     footer #resaux {
         font-size: 20px
     }
@@ -273,9 +266,8 @@ footer a {
     #cta img {
         padding-top: 1rem;
     }
-    footer #copyrigth {
-        padding-left: 5rem;
-        font-size: 0.8rem;
+    footer #copyrigth p{
+       padding-top: 0.5rem;
     }
     h1, h2, h3, h4, h5, h6 {
         padding: 1rem;
@@ -283,11 +275,29 @@ footer a {
     .img-border {
         border: 0.3rem solid var(--almostblack);
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        margin-bottom: 2rem;
      }
      .image-margin-top{
         margin-top: 10rem;
      }
+     footer .hidden-mobile i {
+        font-size: 2.5rem;
+        padding:0 1rem ;
+    }
+    .btn-bleu, .btn-jaune, .btn-orange {
+        margin-top: 1rem;
+    }
+    .background-whitesmoke .shadow-3 {
+        margin-top: 1rem;
+    }
+    section i {
+        margin-bottom: 1.5rem;
+    }
+    #navbarMobile, #cta .hidden-desktop, #hero, #socials, #sarah .hidden-mobile, #maxime .hidden-mobile, #emma .hidden-mobile , #hipthrust .hidden-mobile, #aliments .hidden-mobile, #echauffement .hidden-mobile, #femme .hidden-mobile, #chris .hidden-mobile, #sam .hidden-mobile, #olivia .hidden-mobile {
+        display: none;
+    }
+    #sarah .hidden-desktop, #maxime .hidden-desktop, #emma-photo, #hip-photo, #ali-photo, #echau-photo, #femme-photo, #chris .hidden-desktop, #samphoto, #olivia .hidden-desktop {
+        text-align: center;
+    }
 }  
 
 /* Mobile */
@@ -329,4 +339,10 @@ footer a {
      section p {
         text-align: left;
      }
+     .btn-bleu, .btn-jaune, .btn-orange {
+        margin-top: 1rem;
+    }
+    section i {
+        margin-bottom: 1.5rem;
+    }
     }
