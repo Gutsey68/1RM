@@ -41,7 +41,6 @@ p {
 }
 
 a {
-    text-decoration: none;
     color: var(--almostblack);
 }
 
@@ -129,6 +128,11 @@ section i {
 .textitalic {
     font-style: italic;
 }
+
+.span-bleu {
+    color: var(--bleu);
+}
+
 /* Fil d'arianne */
 .breadcrumb {
     color: var(--almostblack);
@@ -142,7 +146,14 @@ section i {
     color: var(--almostblack);
     font-size: 1.2rem;
     font-weight: 650;
+}
 
+.navbar .navbar-brand {
+    margin-left: 3rem;
+}
+
+.navbar-expand-lg .navbar-nav li {
+    padding-left: 2rem;
 }
 
 .nav-item :hover {
@@ -172,9 +183,7 @@ section i {
     box-shadow: none;
 }
 
-.span-bleu {
-    color: var(--bleu);
-}
+
 
 /*presentation */
 
@@ -241,21 +250,30 @@ footer .hidden-desktop {
 footer a {
     color: var(--almostblack);
 }
+/* Plan du site */
 
+#plandusite {
+    font-size: 1.5em;
+}
+
+/* Mentions légales */
+.mentionslegales {
+    text-align: left;
+}
+
+.mentionslegales p{
+    margin-left: 2rem;
+}
+
+.mentionslegales h1 , .mentionslegales h2 , .mentionslegales h3 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
 /* Desktop */
 
 @media screen and (min-width: 1082px) {
-    .navbar-expand-lg .navbar-nav {
-        margin-left: 10rem;
-    }
-
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-left: 5rem;
-    }
-
-    .navbar img {
-        margin-left: 3rem;
-    }
+  
+    
 
     #presentation h1,
     #presentation h2,
@@ -335,8 +353,8 @@ footer a {
     footer .btn-bleu {
         margin-top: 1rem;
     }
-    .navbar li {
-        margin-left: 10rem;
+    #boutonpresentation {
+        margin-left: 3rem;
     }
 }
 
@@ -443,9 +461,6 @@ footer a {
     }
     footer img {
         margin-top: 0.6rem;
-    }
-    .navbar li {
-        margin-left: 6rem;
     }
 }
 
