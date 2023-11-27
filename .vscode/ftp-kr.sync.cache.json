@@ -236,55 +236,81 @@
     },
     "index.html": {
       "type": "-",
-      "size": 14318,
-      "lmtime": 1700839391721.3262,
+      "size": 14856,
+      "lmtime": 1701097951380.4294,
       "modified": false
     },
     "jsp": {},
+    "less": {},
     "page": {
       "a-propos.html": {
         "type": "-",
-        "size": 13804,
-        "lmtime": 1700839394862.6262,
+        "size": 15133,
+        "lmtime": 1701098450399.9038,
         "modified": false
       },
       "articles.html": {
         "type": "-",
-        "size": 15809,
-        "lmtime": 1700839183212.6658,
+        "size": 17562,
+        "lmtime": 1701098540338.922,
         "modified": false
       },
       "mentions-legales.html": {
         "type": "-",
-        "size": 12411,
-        "lmtime": 1700839191119.2505,
+        "size": 13749,
+        "lmtime": 1701098538859.9192,
+        "modified": false
+      },
+      "plan-du-site.html": {
+        "type": "-",
+        "size": 9313,
+        "lmtime": 1701098454435.6611,
         "modified": false
       },
       "services.html": {
         "type": "-",
-        "size": 19805,
-        "lmtime": 1700839393740.5195,
+        "size": 21111,
+        "lmtime": 1701098680772.5813,
         "modified": false
       },
       "temoignages.html": {
         "type": "-",
-        "size": 12533,
-        "lmtime": 1700839176636.3118,
+        "size": 13848,
+        "lmtime": 1701098448680.395,
         "modified": false
       }
     },
-    "script": {},
+    "script": {
+      "bootstrap.bundle.js": {
+        "type": "-",
+        "size": 207731,
+        "lmtime": 0,
+        "modified": false
+      },
+      "styles.less": {
+        "type": "-",
+        "size": 0,
+        "lmtime": 1701087451477.4607,
+        "modified": false
+      }
+    },
     "style": {
       "bootstrap.css": {
         "type": "-",
-        "size": 280774,
-        "lmtime": 1700839322551.233,
+        "size": 280591,
+        "lmtime": 1701097539004.8555,
         "modified": false
       },
       "style.css": {
         "type": "-",
-        "size": 6918,
-        "lmtime": 1700838910551.5564,
+        "size": 8941,
+        "lmtime": 1701097819237.7021,
+        "modified": false
+      },
+      "styles.less": {
+        "type": "-",
+        "size": 0,
+        "lmtime": 1701087477136.957,
         "modified": false
       }
     }
