@@ -248,9 +248,15 @@ footer a {
 }
 
 /* Plan du site */
+#plan ul {
+    text-align: left;
+}
 
 #plandusite {
     font-size: 1.5em;
+    text-align: left;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
 }
 
 /* Mentions légales */
@@ -270,6 +276,11 @@ footer a {
     margin-left: 1rem;
 }
 
+/* Emma */
+
+#ok {
+    font-size: 3rem;
+}
 /* Desktop */
 
 @media screen and (min-width: 1082px) {
