@@ -5,7 +5,6 @@
     --white: #ffffff;
     --whitesmoke: #F5F5F5;
     --almostblack: #1D1D1B;
-    --poppins: (font-family: 'Poppins', sans-serif; ) --montserrat:(font-family: 'Montserrat', sans-serif; )
 }
 
 h1,
@@ -115,7 +114,7 @@ ul {
     background-color: var(--whitesmoke);
 }
 
-ol li {
+section ol li {
     text-align: left;
     margin-left: 3rem;
 }
@@ -148,16 +147,12 @@ section i {
     font-weight: 650;
 }
 
-.navbar .navbar-brand {
-    margin-left: 3rem;
-}
-
-.navbar-expand-lg .navbar-nav li {
-    padding-left: 2rem;
-}
-
 .nav-item :hover {
     color: var(--bleu);
+}
+
+.navbar ul {
+    width: 100%;
 }
 
 /* navbar mobile */
@@ -218,6 +213,7 @@ section i {
 #temoignages i {
     font-size: 1rem;
 }
+
 /* call to action */
 
 #cta {
@@ -250,6 +246,7 @@ footer .hidden-desktop {
 footer a {
     color: var(--almostblack);
 }
+
 /* Plan du site */
 
 #plandusite {
@@ -257,23 +254,25 @@ footer a {
 }
 
 /* Mentions légales */
+
 .mentionslegales {
     text-align: left;
 }
 
-.mentionslegales p{
+.mentionslegales p {
     margin-left: 2rem;
 }
 
-.mentionslegales h1 , .mentionslegales h2 , .mentionslegales h3 {
+.mentionslegales h1,
+.mentionslegales h2,
+.mentionslegales h3 {
     font-size: 1.5rem;
     margin-left: 1rem;
 }
+
 /* Desktop */
 
 @media screen and (min-width: 1082px) {
-  
-    
 
     #presentation h1,
     #presentation h2,
@@ -340,21 +339,29 @@ footer a {
         padding-top: 0.7rem;
     }
 
-    footer .mb-3 {
-        padding-bottom: 0rem;
-    }
 
     #femme .btn {
         margin-left: 2.5rem;
     }
-    footer i{
+
+    footer i {
         margin-top: 0.4rem;
     }
+
     footer .btn-bleu {
         margin-top: 1rem;
     }
+
     #boutonpresentation {
         margin-left: 3rem;
+    }
+
+    .navbar .navbar-brand {
+        margin-left: 3rem;
+    }
+
+    footer .container h3 {
+        padding-bottom: 1rem;
     }
 }
 
@@ -453,12 +460,15 @@ footer a {
     #olivia .hidden-desktop {
         text-align: center;
     }
-    footer i{
+
+    footer i {
         margin-top: 0.7rem;
     }
+
     footer #copyrigth {
         margin-top: 0.6rem;
     }
+
     footer img {
         margin-top: 0.6rem;
     }
@@ -522,4 +532,9 @@ footer a {
     section i {
         margin-bottom: 1.5rem;
     }
+    
+    #transfo h1 {
+        margin-right: 1rem;
+    }
+    
 }

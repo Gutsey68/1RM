@@ -236,8 +236,8 @@
     },
     "index.html": {
       "type": "-",
-      "size": 14856,
-      "lmtime": 1701097951380.4294,
+      "size": 16203,
+      "lmtime": 1701181798755.319,
       "modified": false
     },
     "jsp": {},
@@ -245,38 +245,38 @@
     "page": {
       "a-propos.html": {
         "type": "-",
-        "size": 15133,
-        "lmtime": 1701098450399.9038,
+        "size": 16800,
+        "lmtime": 1701181918620.187,
         "modified": false
       },
       "articles.html": {
         "type": "-",
-        "size": 17562,
-        "lmtime": 1701098540338.922,
+        "size": 19108,
+        "lmtime": 1701181951925.3516,
         "modified": false
       },
       "mentions-legales.html": {
         "type": "-",
-        "size": 13749,
-        "lmtime": 1701098538859.9192,
+        "size": 15329,
+        "lmtime": 1701181968598.5508,
         "modified": false
       },
       "plan-du-site.html": {
         "type": "-",
-        "size": 9313,
-        "lmtime": 1701098454435.6611,
+        "size": 10911,
+        "lmtime": 1701181903501.146,
         "modified": false
       },
       "services.html": {
         "type": "-",
-        "size": 21111,
-        "lmtime": 1701098680772.5813,
+        "size": 22709,
+        "lmtime": 1701181882874.6523,
         "modified": false
       },
       "temoignages.html": {
         "type": "-",
-        "size": 13848,
-        "lmtime": 1701098448680.395,
+        "size": 15423,
+        "lmtime": 1701182452381.6533,
         "modified": false
       }
     },
@@ -297,14 +297,14 @@
     "style": {
       "bootstrap.css": {
         "type": "-",
-        "size": 280591,
-        "lmtime": 1701097539004.8555,
+        "size": 292398,
+        "lmtime": 1701173282660.3474,
         "modified": false
       },
       "style.css": {
         "type": "-",
-        "size": 8941,
-        "lmtime": 1701097819237.7021,
+        "size": 9063,
+        "lmtime": 1701182476618.794,
         "modified": false
       },
       "styles.less": {

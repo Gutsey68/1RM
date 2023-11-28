@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -28,25 +28,25 @@
                         alt="logo 1RM">
                 </a>
             </div>
-            <div class="col-lg-4"></div>
+            <div class="col-lg-3"></div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <img class="navbar-toggler-icon" src="../images/icones/burger.png" alt="icone burger">
             </button>
-            <div class="collapse navbar-collapse col-lg-6" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class="collapse navbar-collapse col-lg-7 " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-fill">
                     <li class="nav-item">
-                        <a class="nav-link" href="../page/services.html">Services</a>
+                        <a class="nav-link flex-fill" href="../page/services.html">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../page/a-propos.html">À propos</a>
+                        <a class="nav-link flex-fill" href="../page/a-propos.html">À propos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../page/temoignages.html">Témoignages</a>
+                        <a class="nav-link flex-fill" href="../page/temoignages.html">Témoignages</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../page/articles.html">Articles</a>
+                        <a class="nav-link flex-fill" href="../page/articles.html">Articles</a>
                     </li>
                 </ul>
             </div>
@@ -108,7 +108,7 @@
                         à atteindre vos objectifs de remise en forme et de santé. Chaque membre
                         de notre équipe apporte son expertise, sa motivation et son dévouement
                         pour vous offrir une expérience de coaching exceptionnelle.</p>
-                    <div class="presentation-logos"><a class="btn btn-bleu rounded-5" href="">RESERVEZ VOTRE SEANCE
+                    <div class="presentation-logos"><a class="btn btn-jaune rounded-5" href="#nom">RESERVEZ VOTRE SEANCE
                             GRATUITE</a></div>
                 </div>
                 <div class="col-3"></div>
@@ -203,7 +203,7 @@
                         forme de
                         manière efficace et durable.</p>
                     <div class="text-center pb-5"><i class="fa-solid fa-circle-check"></i></div>
-                    <div class="presentation-logos"><a class="btn btn-jaune rounded-5" href="">RECEVEZ DES CONSEILS
+                    <div class="presentation-logos"><a class="btn btn-orange rounded-5" href="#nom">RECEVEZ DES CONSEILS
                             PERSONNALISES DES MAINTENANT</a></div>
                 </div>
             </div>
@@ -213,18 +213,18 @@
     <footer>
         <div class="container pt-3 ">
             <div class="row">
-                <div class="col-md-3 text-center">
+                <div class="col-lg-4 text-center">
                     <h3 class="mb-3 mt-3">Nos coordonnées</h3>
                     <p>0788486497</p>
                     <p>gseyzeriat1@gmail.com</p>
                 </div>
-                <div class="col-md-3 text-center">
+                <div class="col-lg-4 text-center">
                     <h3 class="mb-3 mt-3">Où nous trouver ?</h3>
                     <p>4 Rue du Rhin</p>
                     <p>68000 Colmar</p>
                     <p>France</p>
                 </div>
-                <div class="col-md-3 text-center">
+                <div class="col-lg-4 text-center">
                     <h3 class="mb-3 mt-3">Liens utiles</h3>
                     <div>
                         <div class="mb-3"><a href="../page/plan-du-site.html">Plan du site</a></div>
@@ -233,21 +233,38 @@
                         <div class="mb-3"><a href="../page/mentions-legales.html">Politique de confidentialité</a></div>
                     </div>
                 </div>
-                <div class="col-md-3 mt-3">
-                    <form>
-                        <div class="form-group pb-2">
-                            <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom" required>
-                        </div>
-                        <div class="form-group pb-2">
-                            <input type="email" class="form-control" id="email" name="email"
-                                placeholder="Adresse e-mail" required>
-                        </div>
-                        <div class="form-group pb-2">
-                            <textarea class="form-control" id="message" name="message" placeholder="Message"
-                                required></textarea>
-                        </div>
-                        <input type="submit" class="btn btn-bleu rounded-5" value="Envoyer">
-                    </form>
+            </div>
+            <div class="container pt-3 pb-3">
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-4 mt-3">
+                        <form>
+                            <div class="form-group pb-2">
+                                <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom" required>
+                            </div>
+                            <div class="form-group pb-2">
+                                <input type="email" class="form-control" id="email" name="email"
+                                    placeholder="Adresse e-mail" required>
+                            </div>
+                            <div class="form-group pb-2">
+                                <textarea class="form-control" id="message" name="message" placeholder="Message"
+                                    required></textarea>
+                            </div>
+                            <div class="form-check pt-1 pb-1">
+                                <input type="checkbox" class="form-check-input" id="accepter" name="accepter" required>
+                                <label class="form-check-label" for="accepter">J'accepte la collecte et le traitement des
+                                    données personnelles.</label>
+                            </div>
+                            <input type="submit" class="btn btn-bleu rounded-5" value="Envoyer">
+                        </form>
+                    </div>
+                    <div class="col-lg-6 md-12 mt-3">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2665.7506492753487!2d7.364534476742999!3d48.07645575541391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479165fb30b15b99%3A0x1ba1a16e967f263b!2s4%20Rue%20du%20Rhin%2C%2068000%20Colmar!5e0!3m2!1sfr!2sfr!4v1701181258876!5m2!1sfr!2sfr"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col-lg-1"></div>
                 </div>
             </div>
         </div>
